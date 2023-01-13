@@ -51,7 +51,7 @@ const Footer = () => {
           {" "}
           <img src={images.mobile} alt="mobile" />
           <a href="tel: +63 9560 112 96" className="p-text">
-            +63 9560 112 96
+            +63 9560 112 096
           </a>
         </div>
       </div>
