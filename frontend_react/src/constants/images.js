@@ -24,8 +24,10 @@ import about03 from "../assets/about03.png";
 import about04 from "../assets/about04.png";
 
 import profile from "../assets/profile.png";
+import profile2 from "../assets/profile2.png";
 import circle from "../assets/circle.svg";
 import logo from "../assets/logo.png";
+import rommel from "../assets/rommel.svg";
 
 import adidas from "../assets/adidas.png";
 import amazon from "../assets/amazon.png";
@@ -34,6 +36,10 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import solidity from "../assets/solidity.png";
+import ethers from "../assets/ethers.png";
+import hardhat from "../assets/hardhat.png";
+import nextjs from "../assets/nextjs.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -61,8 +67,10 @@ export default {
   about03,
   about04,
   profile,
+  profile2,
   circle,
   logo,
+  rommel,
   adidas,
   amazon,
   asus,
@@ -70,4 +78,8 @@ export default {
   nb,
   skype,
   spotify,
+  solidity,
+  ethers,
+  hardhat,
+  nextjs,
 };
