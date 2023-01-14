@@ -1,23 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import ReactTooltip from "react-tooltip";
+// import ReactTooltip from "react-tooltip";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
+import { sections } from "../../constants";
 
 import "./Skills.scss";
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
-  const [experience, setExperience] = useState([]);
+  // const [experience, setExperience] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "experiences"]';
+    // const query = '*[_type == "experiences"]';
     const skillsQuery = '*[_type == "skills"]';
 
-    client.fetch(query).then((data) => {
-      setExperience(data);
-    });
+    // client.fetch(query).then((data) => {
+    //   setExperience(data);
+    // });
 
     client.fetch(skillsQuery).then((data) => {
       setSkills(data);
@@ -46,7 +47,7 @@ const Skills = () => {
             </motion.div>
           ))}
         </motion.div>
-        <motion.div className="app__skills-exp">
+        {/* <motion.div className="app__skills-exp">
           {experience.map((experience, index) => (
             <motion.div
               className="app__skills-exp-item"
@@ -82,7 +83,7 @@ const Skills = () => {
               </motion.div>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </div>
     </>
   );
@@ -91,5 +92,6 @@ const Skills = () => {
 export default AppWrap(
   MotionWrap(Skills, "app__skills"),
   "skills",
-  "app__whitebg"
+  "app__whitebg",
+  sections
 );

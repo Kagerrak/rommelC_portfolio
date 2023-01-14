@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
+import { sections } from "../../constants";
 
 import "./Work.scss";
 
@@ -120,4 +121,9 @@ const Work = () => {
   );
 };
 
-export default AppWrap(MotionWrap(Work, "app__works"), "work", "app__whitebg");
+export default AppWrap(
+  MotionWrap(Work, "app__works"),
+  "work",
+  "app__whitebg",
+  sections
+);

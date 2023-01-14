@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { images } from "../../constants";
+import { images, sections } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
 import "./Footer.scss";
@@ -103,5 +103,6 @@ const Footer = () => {
 export default AppWrap(
   MotionWrap(Footer, "app__footer"),
   "contact",
-  "app__whitebg"
+  "app__whitebg",
+  sections
 );

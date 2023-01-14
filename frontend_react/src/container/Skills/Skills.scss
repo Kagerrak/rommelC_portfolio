@@ -5,15 +5,16 @@
 }
 
 .app__skills-container {
-  width: 80%;
+  width: 100%;
   margin-top: 3rem;
-
+  justify-content: center;
   display: flex;
   flex-direction: row;
 
   @media screen and (max-width: 900px) {
     width: 100%;
     flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -24,7 +25,7 @@
   justify-content: flex-start;
   align-items: flex-start;
 
-  margin-right: 5rem;
+  // margin-right: 5rem;
 
   @media screen and(max-width:900px) {
     margin-right: 0;

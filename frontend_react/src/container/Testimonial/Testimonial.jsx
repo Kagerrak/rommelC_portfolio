@@ -5,6 +5,7 @@ import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { urlFor, client } from "../../client";
 import "./Testimonial.scss";
+import { sections } from "../../constants";
 
 const Testimonial = () => {
   const [brands, setBrands] = useState([]);
@@ -90,5 +91,6 @@ const Testimonial = () => {
 export default AppWrap(
   MotionWrap(Testimonial, "app__testimonial"),
   "testimonial",
-  "app__primarybg"
+  "app__primarybg",
+  sections
 );

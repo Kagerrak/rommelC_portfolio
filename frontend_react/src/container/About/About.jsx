@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import "./About.scss";
 import { urlFor, client } from "../../client";
 import { AppWrap, MotionWrap } from "../../wrapper";
+import { sections } from "../../constants";
 
 const About = () => {
   // const abouts = [
@@ -71,5 +72,6 @@ const About = () => {
 export default AppWrap(
   MotionWrap(About, "app__about"),
   "about",
-  "app__whitebg"
+  "app__whitebg",
+  sections
 );
