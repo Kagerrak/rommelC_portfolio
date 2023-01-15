@@ -4,6 +4,6 @@ export const sections = [
   "about",
   "work",
   "skills",
-  "testimonial",
+  // "testimonial",
   "contact",
 ];

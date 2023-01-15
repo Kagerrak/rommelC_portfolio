@@ -27,7 +27,8 @@ const Skills = () => {
 
   return (
     <>
-      <h2 className="head-text">Skills & Experience</h2>
+      <h2 className="head-text">Skills</h2>
+      <h1 className="p-text">Technologies I use in my development:</h1>
       <div className="app__skills-container">
         <motion.div className="app__skills-list">
           {skills.map((skill, index) => (
