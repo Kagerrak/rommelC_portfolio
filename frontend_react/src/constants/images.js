@@ -40,6 +40,7 @@ import solidity from "../assets/solidity.png";
 import ethers from "../assets/ethers.png";
 import hardhat from "../assets/hardhat.png";
 import nextjs from "../assets/nextjs.png";
+import pdf from "../assets/pdf.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -82,4 +83,5 @@ export default {
   ethers,
   hardhat,
   nextjs,
+  pdf,
 };
